@@ -1,8 +1,8 @@
-from django.shortcuts import render, HttpResponse, redirect, get_object_or_404
+from django.shortcuts import HttpResponse, get_object_or_404, redirect, render
 
 # Create your views here.
 
 
-def index(request):
+def sayiDoldurma(request):
 
-    return render(request, "index/index.html")
+    return render(request, "pokust/sayi1.html")

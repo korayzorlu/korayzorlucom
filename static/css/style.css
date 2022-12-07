@@ -1,3 +1,39 @@
+@font-face {font-family: "BrandonTextWeb-Regular";
+    src: url("https://romanodizayn.com/CustomCss/ticimax/fonts/47b83f8dbd3bf93e0df5674b32c6a7e4.eot");
+    src: url("https://romanodizayn.com/CustomCss/ticimax/fonts/47b83f8dbd3bf93e0df5674b32c6a7e4.eot?#iefix") format("embedded-opentype"),
+    url("https://romanodizayn.com/CustomCss/ticimax/fonts/47b83f8dbd3bf93e0df5674b32c6a7e4.woff2") format("woff2"),
+    url("https://romanodizayn.com/CustomCss/ticimax/fonts/47b83f8dbd3bf93e0df5674b32c6a7e4.woff") format("woff"),
+    url("https://romanodizayn.com/CustomCss/ticimax/fonts/47b83f8dbd3bf93e0df5674b32c6a7e4.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'brandon_textbold';
+    src: url('https://romanodizayn.com/CustomCss/ticimax/fonts/hvd_fonts_-_brandontext-bold-webfont.woff2') format('woff2'),
+         url('https://romanodizayn.com/CustomCss/ticimax/fonts/hvd_fonts_-_brandontext-bold-webfont.woff') format('woff'),
+         url('https://romanodizayn.com/CustomCss/ticimax/fonts/hvd_fonts_-_brandontext-bold-webfont.svg#brandon_textbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'brandon_textmedium';
+    src: url('https://romanodizayn.com/CustomCss/ticimax/fonts/hvd_fonts_-_brandontext-medium-webfont.woff2') format('woff2'),
+         url('https://romanodizayn.com/CustomCss/ticimax/fonts/hvd_fonts_-_brandontext-medium-webfont.woff') format('woff'),
+         url('https://romanodizayn.com/CustomCss/ticimax/fonts/hvd_fonts_-_brandontext-medium-webfont.svg#brandon_textmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'brandon_textregular';
+    src: url('https://romanodizayn.com/CustomCss/ticimax/fonts/hvd_fonts_-_brandontext-regular-webfont.woff2') format('woff2'),
+         url('https://romanodizayn.com/CustomCss/ticimax/fonts/hvd_fonts_-_brandontext-regular-webfont.woff') format('woff'),
+         url('https://romanodizayn.com/CustomCss/ticimax/fonts/hvd_fonts_-_brandontext-regular-webfont.svg#brandon_textregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 html {scroll-behavior: smooth;}
 .wrapper {display: flex;align-items: stretch;}
 
@@ -8,7 +44,7 @@ a[data-toggle="collapse"] {position: relative;}
 #editbutton {border-radius: 50px;}
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 /* body {font-family: "Roboto", "Arial", sans-serif; background: #f1f2f7!important;} */
-body {font-family: var(--bs-font-sans-serif); background: #f1f2f7!important;}
+body {font-family: brandon_textregular!important; background: #f1f2f7!important;}
 
 p {font-family: 'Roboto', sans-serif;font-size: 1.1em;font-weight: 300;line-height: 1.7em;color: #000;}
 

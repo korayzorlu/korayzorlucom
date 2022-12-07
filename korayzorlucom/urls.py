@@ -17,8 +17,10 @@ from django.contrib import admin
 from django.urls import path
 
 from home.views import index
+from pokust.views import sayiDoldurma
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index, name="index"),
+    path('sayidoldurma/', sayiDoldurma, name="sayiDoldurma"),
 ]
