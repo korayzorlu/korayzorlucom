@@ -15,6 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.urls.conf import include
 
 from home.views import index
 from pokust.views import sayiDoldurma
@@ -22,5 +23,5 @@ from pokust.views import sayiDoldurma
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index, name="index"),
-    path('sayidoldurma/', sayiDoldurma, name="sayiDoldurma"),
+    path('pokust/', include("pokust.urls")),
 ]

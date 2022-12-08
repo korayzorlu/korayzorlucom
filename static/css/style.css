@@ -105,6 +105,12 @@ footer .bottom-details .bottom-text a{margin-right: 10px;}
 .partiesRank ul li{display: flex; flex-direction: column; justify-content: center;}
 .partiesRank ul li img{height: 100px; object-fit: cover;}
 .partiesRank ul li .oran{font-size: 35px; font-weight: 500;}
+/***************************************************************************************/
+
+/*********************************POKUST**************************************************/
+/*Sayidoldurma*/
+.mainBlock{width: 100%;}
+.mainBlock img{height: 100vh;}
 
 /*******************************************MOBILE*************************************************/
 /******************************************************************************************************/
