@@ -18,7 +18,7 @@ from django.urls import path
 from django.urls.conf import include
 
 from home.views import index
-from pokust.views import sayiDoldurma
+from pokust.views import sayiDoldurma1
 
 urlpatterns = [
     path('admin/', admin.site.urls),
