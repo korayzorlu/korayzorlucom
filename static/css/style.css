@@ -155,7 +155,7 @@ footer .bottom-details .bottom-text a{margin-right: 10px;}
     .partiesRank ul li{flex-direction: row;}
     /***************************INDEX***************************/
     /*SAyidoldurma*/
-    /*html{transform: rotate(90deg);}*/
+    html{transform: rotate(90deg);}
     .mainBlock{width: 100vh;}
     .mainBlock .cell{font-size: 20px;}
     /***************************INDEX***************************/
