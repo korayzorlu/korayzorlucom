@@ -19,13 +19,13 @@
 <body>
     
     {% include "includes/navbar.html" %}
-    <style>.index-section{margin-top: 100px;}</style>
+    <style>.mainContent{height: 100vh; margin-top: 100px;}</style>
 
-    <section class="index-section">
+    <div class="mainContent">
         {% block body %}
         
         {% endblock body %}
-    </section>
+    </div>
 
     <!-- {% include "includes/footer.html" %} -->
     

@@ -44,7 +44,7 @@ a[data-toggle="collapse"] {position: relative;}
 #editbutton {border-radius: 50px;}
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 /* body {font-family: "Roboto", "Arial", sans-serif; background: #f1f2f7!important;} */
-body {font-family: brandon_textregular!important; background: #f1f2f7!important;}
+body {/*font-family: brandon_textregular!important;*/font-family: Arial, Helvetica, sans-serif;}
 
 p {font-family: 'Roboto', sans-serif;font-size: 1.1em;font-weight: 300;line-height: 1.7em;color: #000;}
 
@@ -52,7 +52,7 @@ a,a:hover,a:focus {color: inherit;text-decoration: none;transition: all 0.3s;}
 
 
 /**********************************NAVBAR V2************************************************/
-.navbarv2{position: fixed;top: 0;width: 100%;background: #11101d/*Edit*/;padding: 0; /*box-shadow: 0 5px 10px rgba(0, 0, 0, .1)*/;z-index: 150;}
+.navbarv2{display: none; position: fixed;top: 0;width: 100%;background: transparent/*Edit*/;padding: 0; /*box-shadow: 0 5px 10px rgba(0, 0, 0, .1)*/;z-index: 150;border-bottom: 1px solid #f1f2f7;}
 .navbarv2 .menu{max-width: 1920px;margin: auto;padding: 0 20px;display: flex;justify-content: space-between;align-items: center;}
 .navbarv2 .menu .logo a{/*font-size: 28px;*/font-weight: 600;text-decoration: none;color: #31344b;}
 .navbarv2 .menu ul{list-style: none;display: flex; transform: translateY(15%);}
@@ -106,6 +106,13 @@ footer .bottom-details .bottom-text a{margin-right: 10px;}
 .partiesRank ul li{display: flex; flex-direction: column; justify-content: center;}
 .partiesRank ul li img{height: 100px; object-fit: cover;}
 .partiesRank ul li .oran{font-size: 35px; font-weight: 500;}
+.topContent{width: 100%; height: 100%;align-items: center;}
+.topContent .summary{display: flex; justify-content: space-between; max-width: 1200px; margin: 0 auto;box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;}
+.topContent .summary .imgContent img{max-width: 400px;}
+.topContent .summary .textContent{display: flex; flex-direction: column; justify-content: center; padding: 0 20px;}
+.topContent .summary .textContent .title span{padding: 10px;line-height: 40px;font-size: 40px; font-weight: 600;}
+.topContent .summary .textContent .aciklama{margin-top: 20px; text-align: justify;}
+.topContent .summary .textContent .aciklama span{padding: 10px;line-height: 18px;font-size: 18px;}
 /***************************************************************************************/
 
 /*********************************POKUST**************************************************/
@@ -148,7 +155,7 @@ footer .bottom-details .bottom-text a{margin-right: 10px;}
     .partiesRank ul li{flex-direction: row;}
     /***************************INDEX***************************/
     /*SAyidoldurma*/
-    html{transform: rotate(90deg);}
+    /*html{transform: rotate(90deg);}*/
     .mainBlock{width: 100vh;}
     .mainBlock .cell{font-size: 20px;}
     /***************************INDEX***************************/
